@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "com.ami",
+		"id": "superfancyclouds",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Super Fancy Clouds",
+			"description": "A mod that reworks the visuals of clouds to be much more interesting.",
 			"contributors": {
-				"Your name here": "Owner"
+				"Ami": "Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
 				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
 				"sources": "https://github.com/QuiltMC/quilt-template-mod"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/superfancyclouds/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"client_init": "com.ami.superfancyclouds.SuperFancyCloudsMod"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "superfancyclouds.mixins.json"
 }
