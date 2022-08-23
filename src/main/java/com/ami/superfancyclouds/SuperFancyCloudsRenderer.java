@@ -178,12 +178,12 @@ public class SuperFancyCloudsRenderer {
 	};
 
 	private final int[] colors = {
+			ColorUtil.ARGB32.getArgb((int) (255 * 0.8f), (int) (255 * 0.95f), (int) (255 * 0.9f), (int) (255 * 0.9f)),
+			ColorUtil.ARGB32.getArgb((int) (255 * 0.8f), (int) (255 * 0.75f), (int) (255 * 0.75f), (int) (255 * 0.75f)),
 			ColorUtil.ARGB32.getArgb((int) (255 * 0.8f), 255, 255, 255),
 			ColorUtil.ARGB32.getArgb((int) (255 * 0.8f), (int) (255 * 0.6f), (int) (255 * 0.6f), (int) (255 * 0.6f)),
+			ColorUtil.ARGB32.getArgb((int) (255 * 0.8f), (int) (255 * 0.92f), (int) (255 * 0.85f), (int) (255 * 0.85f)),
 			ColorUtil.ARGB32.getArgb((int) (255 * 0.8f), (int) (255 * 0.8f), (int) (255 * 0.8f), (int) (255 * 0.8f)),
-			ColorUtil.ARGB32.getArgb((int) (255 * 0.8f), (int) (255 * 0.75f), (int) (255 * 0.75f), (int) (255 * 0.75f)),
-			ColorUtil.ARGB32.getArgb((int) (255 * 0.8f), (int) (255 * 0.8f), (int) (255 * 0.8f), (int) (255 * 0.8f)),
-			ColorUtil.ARGB32.getArgb((int) (255 * 0.8f), (int) (255 * 0.75f), (int) (255 * 0.75f), (int) (255 * 0.75f)),
 	};
 
 	double remappedValue(double noise) {
